@@ -9,10 +9,18 @@ html {
 
 body {
 	margin: 0;
+    height: calc(100vh - 50px);
+	background-color: #454545;
+}
+
+.content {
+	margin-top: 50px;
 	height: 100%;
-	background-color: #EEE;
 }
 
 footer {	
-    background-color: #202020;
+	background-color: #202020;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
 }
