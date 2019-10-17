@@ -1,9 +1,11 @@
 .content__cover {
+	border-bottom: 1px solid black;
+}
+
+.content__cover img {
 	width: 100%;
 	height: 50vh;
-	background: url(../img/placeholder.png);
-	background-size: cover;
-	border-bottom: 1px solid black;
+	display: block;
 }
 
 .content__container {
