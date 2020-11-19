@@ -1,9 +1,9 @@
 .nav {
     position: fixed;
     background-color: #202020;
-    width: 100%;
+    width: 280px;
 	z-index: 99;
-	top: 0;
+    top: 0;
 }
 
 .nav * {
@@ -83,35 +83,38 @@
 
 @media only screen and (min-width: 600px) {
     .nav {
-        height: 50px;
+        height: 100%;
     }
 
     .nav * {
-        height: 100%;
     }
     
     .nav__link {
         display: table-cell;
     }
         
-    .nav__logo {        
-		height: 100%;
-		float: left;
+    .nav__logo {
+        margin: auto;
     }
 	
 	.nav__logo .nav__link {        
 		padding: 0px 20px;
 		margin-right: 10px;
 		border: none;
-	}
+    }
+    
+    .logo__content
+    {
+        
+    }
 	
 	.nav__container {
-		float: right;
 	}
 
     .nav__content {
         display: table;
-        float: left;
+        margin: auto;
+        width: 20%;
     }
 	
 	/* Underline */
