@@ -9,14 +9,14 @@ html, body
 	margin: 0;
 }
 
-.content {
-	margin-top: 50px;
-	width: 100%;
-	height: calc(100% - 50px);
+body {
+	margin: 0;
+    height: calc(100vh - 50px);
+	background-color: #454545;
 }
 
-.landing {
-	width: 100%;
+.content {
+	margin-top: 50px;
 	height: 100%;
 }
 
@@ -27,5 +27,8 @@ html, body
 
 
 footer {	
-    background-color: #202020;
+	background-color: #202020;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
 }
